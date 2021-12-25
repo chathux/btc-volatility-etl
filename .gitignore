@@ -1,0 +1,4 @@
+*.iml
+*.sqlite
+.idea
+src/**/__pycache__/
