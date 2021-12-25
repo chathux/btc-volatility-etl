@@ -65,7 +65,6 @@ Refer the [DDL script](/sql_ddl/ddl.sql) to populate the sql tables.
   export BTC_ETL_VOLATILITY_TABLE_NAME=<table_name_daily_volatility_table>
   
   ```
-
 - Execute the application.
     ```
     python3 src/main.py
