@@ -17,7 +17,8 @@ class VolatilityETL:
         self.__logger.setLevel(logging.INFO)
         requests_cache.install_cache()
 
-    # returns df
+    # reads the json file from remote url and process it to retrieve volatility information
+    # and stores as dataframes
     def process_file(self, url):
         response = requests.get(url)
         content = response.content.decode()
@@ -33,14 +34,14 @@ class VolatilityETL:
         df_cleansed = df[df.trades_count > 0]
 
         v_df = df_cleansed.groupby(['volatility_date']).agg(
-            volatility = ('price_open','std'),
-            price_open = ('price_open','first'),
-            price_close = ('price_close','last'),
-            price_low = ('price_low','min'),
-            price_high = ('price_high','max'),
-            trades_count = ('trades_count','sum'),
-            sample_count = ('trades_count','count'),
-        ).reset_index().rename(columns={'volatility_date':'date'})
+            volatility=('price_open', 'std'),
+            price_open=('price_open', 'first'),
+            price_close=('price_close', 'last'),
+            price_low=('price_low', 'min'),
+            price_high=('price_high', 'max'),
+            trades_count=('trades_count', 'sum'),
+            sample_count=('trades_count', 'count'),
+        ).reset_index().rename(columns={'volatility_date': 'date'})
 
         self.__df = df
         self.__v_df = v_df
