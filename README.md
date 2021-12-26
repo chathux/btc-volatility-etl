@@ -23,8 +23,10 @@ Before writing data to the tables, it will remove any rows that belong to the sa
 
 ### Prerequisites
 
-- Python3 installed.
 - PostgreSQL installed and configured.
+- Python 3.x
+- pandas 1.3
+- sqlalchemy 1.4
 
 ### Install Dependencies
 
