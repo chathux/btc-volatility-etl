@@ -1,0 +1,86 @@
+[
+  {
+    "time_period_start": "2020-01-01T00:00:00.0000000Z",
+    "time_period_end": "2020-01-01T00:06:00.0000000Z",
+    "time_open": "2020-01-01T00:00:30.5300000Z",
+    "time_close": "2020-01-01T00:05:56.6900000Z",
+    "price_open": 7160.69,
+    "price_high": 7161.51,
+    "price_low": 7150.1,
+    "price_close": 7158.5,
+    "volume_traded": 11.23203109,
+    "trades_count": 46
+  },
+  {
+    "time_period_start": "2020-01-01T00:06:00.0000000Z",
+    "time_period_end": "2020-01-01T00:12:00.0000000Z",
+    "time_open": "2020-01-01T00:06:00.0190000Z",
+    "time_close": "2020-01-01T00:11:44.8420000Z",
+    "price_open": 7157.22,
+    "price_high": 7166.36,
+    "price_low": 7153.01,
+    "price_close": 7162.75,
+    "volume_traded": 3.62584405,
+    "trades_count": 32
+  },
+  {
+    "time_period_start": "2020-01-01T00:12:00.0000000Z",
+    "time_period_end": "2020-01-01T00:18:00.0000000Z",
+    "time_open": "2020-01-01T00:12:35.7090000Z",
+    "time_close": "2020-01-01T00:17:40.6050000Z",
+    "price_open": 7165.52,
+    "price_high": 7165.52,
+    "price_low": 7152.25,
+    "price_close": 7153.65,
+    "volume_traded": 12.1508008,
+    "trades_count": 37
+  },
+  {
+    "time_period_start": "2020-01-01T00:18:00.0000000Z",
+    "time_period_end": "2020-01-01T00:24:00.0000000Z",
+    "time_open": "2020-01-01T00:18:01.0900000Z",
+    "time_close": "2020-01-01T00:23:50.9040000Z",
+    "price_open": 7158.43,
+    "price_high": 7160.11,
+    "price_low": 7152.62,
+    "price_close": 7159.17,
+    "volume_traded": 0.40492737,
+    "trades_count": 20
+  },
+  {
+    "time_period_start": "2020-01-01T00:24:00.0000000Z",
+    "time_period_end": "2020-01-01T00:30:00.0000000Z",
+    "time_open": "2020-01-01T00:24:30.9780000Z",
+    "time_close": "2020-01-01T00:29:55.2210000Z",
+    "price_open": 7156.56,
+    "price_high": 7163.42,
+    "price_low": 7152.26,
+    "price_close": 7154.51,
+    "volume_traded": 4.24823208,
+    "trades_count": 32
+  },
+  {
+    "time_period_start": "2020-01-01T00:30:00.0000000Z",
+    "time_period_end": "2020-01-01T00:36:00.0000000Z",
+    "time_open": "2020-01-01T00:30:02.0460000Z",
+    "time_close": "2020-01-01T00:35:58.2760000Z",
+    "price_open": 7158.34,
+    "price_high": 7167.45,
+    "price_low": 7157.25,
+    "price_close": 7158.12,
+    "volume_traded": 0.63102605,
+    "trades_count": 17
+  },
+  {
+    "time_period_start": "2020-01-01T00:36:00.0000000Z",
+    "time_period_end": "2020-01-01T00:42:00.0000000Z",
+    "time_open": "2020-01-01T00:36:02.0100000Z",
+    "time_close": "2020-01-01T00:41:48.2330000Z",
+    "price_open": 7161.11,
+    "price_high": 7163.5,
+    "price_low": 7155,
+    "price_close": 7155.24,
+    "volume_traded": 10.1616444,
+    "trades_count": 16
+  }
+]
